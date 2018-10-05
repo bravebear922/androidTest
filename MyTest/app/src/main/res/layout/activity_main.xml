@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2982FB">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/user"
+
+                />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MoLife"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/location"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/food_image_view"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:src="@mipmap/food"/>
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Food"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/hotel_image_view"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:src="@mipmap/hotel"/>
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Hotel"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/taxi_image_view"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:src="@mipmap/taxi"/>
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Taxi"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+                        <ImageView
+                            android:id="@+id/flight_image_view"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:src="@mipmap/flight"/>
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Flight"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/wealth_image_view"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:src="@mipmap/wealth"/>
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Wealth"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/reward_image_view"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:src="@mipmap/reward"/>
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Reward"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/health_image_view"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:src="@mipmap/health"/>
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Health"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+                        <ImageView
+                            android:id="@+id/edu_image_view"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:src="@mipmap/education"/>
+
+                        <TextView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Edu"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/banner" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:id="@+id/list_view"></ListView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
